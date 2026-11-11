@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>唯客交易所_正版软件下载_专业透明加密资产平台</title>
+<meta name="description" content="唯客交易所是专业的比特币交易、数字货币、合约交易平台、秉持“客户第一,伙伴至上”的经营理念,致力于为全球数字货币交易用户提供安全友好的数字货币交易服务。">
+<meta name="keywords" content="WEEX交易所,WEEX交易所官网,WEEX交易平台,WEEX官网,唯客交易所">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="./">
+<style>
+:root{
+  --cream:#fbf9f4;
+  --cream-2:#f3efe5;
+  --white:#ffffff;
+  --navy:#1f2a5a;
+  --navy-2:#2b3a7a;
+  --coral:#ff5a4d;
+  --coral-l:#ffd8d4;
+  --ink:#1a1d2b;
+  --ink-2:#4c5266;
+  --dim:#8f94a6;
+  --line:#e4dfd3;
+  --r:30px;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  background:var(--cream);color:var(--ink);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+  line-height:1.78;-webkit-font-smoothing:antialiased;overflow-x:hidden;
+}
+a{color:inherit;text-decoration:none}
+.wrap{width:100%;max-width:1180px;margin:0 auto;padding:0 30px}
+.ticker{
+  background:var(--navy);color:#eceffb;overflow:hidden;white-space:nowrap;
+  font-size:11.5px;letter-spacing:2.2px;text-transform:uppercase;font-weight:700;
+}
+.ticker span{
+  display:inline-block;padding:11px 0;animation:slide 30s linear infinite;
+}
+@keyframes slide{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+header{position:sticky;top:0;z-index:60;background:rgba(251,249,244,.93);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:74px}
+.brand{display:flex;align-items:center;gap:11px;font-size:16px;font-weight:800;letter-spacing:-.4px}
+.brand .b{
+  width:32px;height:32px;border-radius:10px;background:var(--navy);color:#fff;
+  display:grid;place-items:center;font-size:12px;font-weight:800;
+}
+.brand .b i{color:var(--coral);font-style:normal}
+.nav ul{display:flex;gap:28px;font-size:13.5px;color:var(--ink-2);list-style:none}
+.nav ul a:hover{color:var(--navy)}
+.nav .cta{
+  font-size:12.5px;font-weight:800;padding:10px 22px;border-radius:999px;
+  background:var(--coral);color:#fff;transition:.22s;
+}
+.nav .cta:hover{background:var(--navy)}
+.hero{padding:78px 0 0;text-align:center;position:relative}
+.hero::before{
+  content:"";position:absolute;left:50%;top:34px;transform:translateX(-50%);
+  width:min(720px,88vw);height:min(720px,88vw);border-radius:50%;
+  background:radial-gradient(circle,rgba(31,42,90,.055),transparent 66%);pointer-events:none;
+}
+.hero .badge{
+  display:inline-flex;align-items:center;gap:9px;font-size:11.5px;font-weight:800;
+  letter-spacing:1.2px;color:var(--navy);background:var(--white);border:1px solid var(--line);
+  padding:7px 17px;border-radius:999px;position:relative;
+}
+.hero .badge::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--coral)}
+h1{
+  font-size:clamp(33px,5.6vw,68px);line-height:1.07;letter-spacing:-2.6px;font-weight:800;
+  margin:26px auto 0;max-width:900px;position:relative;
+}
+h1 em{
+  font-style:italic;font-family:Georgia,"Times New Roman",serif;font-weight:400;color:var(--navy);
+}
+h1 b{color:var(--coral);font-weight:800}
+.hero .rule{
+  width:64px;height:3px;background:var(--coral);margin:30px auto 0;border-radius:2px;
+}
+.hero .lead{
+  margin:26px auto 0;max-width:620px;font-size:15.5px;color:var(--ink-2);
+}
+.hero .lead strong{color:var(--ink);font-weight:700}
+.hero .acts{display:flex;gap:13px;justify-content:center;flex-wrap:wrap;margin-top:34px}
+.btn{
+  display:inline-flex;align-items:center;gap:9px;padding:14px 30px;border-radius:999px;
+  font-size:13.5px;font-weight:800;transition:.24s;
+}
+.btn-p{background:var(--navy);color:#fff;box-shadow:0 14px 30px rgba(31,42,90,.2)}
+.btn-p:hover{background:var(--navy-2);transform:translateY(-2px)}
+.btn-o{border:1.5px solid var(--line);color:var(--ink);background:var(--white)}
+.btn-o:hover{border-color:var(--navy);color:var(--navy)}
+.stats{
+  display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-top:66px;
+  background:var(--white);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;
+}
+.stats div{padding:30px 24px;text-align:center;border-right:1px solid var(--line)}
+.stats div:last-child{border-right:none}
+.stats b{display:block;font-size:26px;font-weight:800;letter-spacing:-1.4px;color:var(--navy)}
+.stats b i{color:var(--coral);font-style:normal;font-size:15px;letter-spacing:0}
+.stats span{display:block;margin-top:8px;font-size:12px;color:var(--dim);letter-spacing:.4px}
+section{padding:92px 0 0}
+.shead{text-align:center;max-width:660px;margin:0 auto 52px}
+.shead .k{
+  display:inline-block;font-size:11px;font-weight:800;letter-spacing:2.6px;text-transform:uppercase;
+  color:var(--coral);margin-bottom:16px;
+}
+.shead h2{font-size:clamp(25px,3.3vw,42px);letter-spacing:-1.5px;line-height:1.2;font-weight:800}
+.shead p{margin-top:16px;font-size:14.5px;color:var(--ink-2)}
+.stagger{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.sc{
+  background:var(--white);border:1px solid var(--line);border-radius:var(--r);padding:38px 34px;
+  position:relative;overflow:hidden;transition:transform .3s,box-shadow .3s;
+}
+.sc:hover{transform:translateY(-6px);box-shadow:0 26px 54px rgba(31,42,90,.09)}
+.sc:nth-child(even){margin-top:36px}
+.sc .ghost{
+  position:absolute;right:14px;top:-16px;font-size:104px;font-weight:800;letter-spacing:-6px;
+  color:rgba(31,42,90,.055);line-height:1;pointer-events:none;
+}
+.sc .dot{
+  width:38px;height:38px;border-radius:12px;background:var(--coral-l);color:var(--coral);
+  display:grid;place-items:center;font-size:14px;font-weight:800;margin-bottom:20px;
+}
+.sc h3{font-size:18px;font-weight:800;letter-spacing:-.5px;margin-bottom:11px}
+.sc h3 small{display:block;font-size:10.5px;font-weight:700;letter-spacing:1.6px;text-transform:uppercase;color:var(--dim);margin-top:7px}
+.sc p{font-size:13.6px;color:var(--ink-2);position:relative;z-index:2}
+.tags{display:flex;flex-wrap:wrap;gap:7px;margin-top:18px}
+.tags i{
+  font-style:normal;font-size:11px;font-weight:700;padding:4px 11px;border-radius:999px;
+  background:var(--cream-2);color:var(--ink-2);
+}
+.flow{
+  background:var(--white);border:1px solid var(--line);border-radius:var(--r);padding:44px 40px;
+}
+.flow-row{display:grid;grid-template-columns:repeat(4,1fr);gap:26px;position:relative}
+.fstep{text-align:center;position:relative}
+.fstep .c{
+  width:54px;height:54px;border-radius:50%;margin:0 auto 18px;display:grid;place-items:center;
+  background:var(--navy);color:#fff;font-size:15px;font-weight:800;
+}
+.fstep:nth-child(2) .c{background:var(--navy-2)}
+.fstep:nth-child(3) .c{background:var(--coral)}
+.fstep:nth-child(4) .c{background:var(--ink)}
+.fstep h4{font-size:14.5px;font-weight:800;letter-spacing:-.2px;margin-bottom:9px}
+.fstep p{font-size:12.8px;color:var(--ink-2)}
+.motto{
+  background:var(--cream-2);border-radius:var(--r);padding:64px 44px;text-align:center;
+  border:1px solid var(--line);
+}
+.motto .q{
+  font-family:Georgia,"Times New Roman",serif;font-style:italic;
+  font-size:clamp(21px,3.1vw,38px);letter-spacing:-.7px;color:var(--navy);line-height:1.42;
+}
+.motto .by{font-size:12.5px;color:var(--dim);margin-top:18px;letter-spacing:1.8px}
+.split2{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.sp{
+  border-radius:26px;padding:36px 32px;border:1px solid var(--line);background:var(--white);
+}
+.sp.dark{background:linear-gradient(150deg,var(--navy),#141a3c);border:none;color:#eceffb}
+.sp h3{font-size:17px;font-weight:800;letter-spacing:-.4px;margin-bottom:8px}
+.sp h3 span{
+  font-size:10px;letter-spacing:1.6px;text-transform:uppercase;font-weight:800;margin-left:8px;
+  color:var(--coral);
+}
+.sp p{font-size:13.4px;margin-top:10px}
+.sp.dark p{color:rgba(236,239,251,.72)}
+.sp ul{list-style:none;margin-top:18px;display:grid;gap:10px}
+.sp li{font-size:12.8px;padding-left:19px;position:relative}
+.sp.dark li{color:rgba(236,239,251,.8)}
+.sp li::before{
+  content:"";position:absolute;left:0;top:8px;width:7px;height:7px;border-radius:2px;
+  background:var(--coral);transform:rotate(45deg);
+}
+.declare{
+  background:linear-gradient(155deg,var(--navy) 0%,#161d44 100%);color:#eceffb;
+  border-radius:var(--r);padding:52px 46px;
+}
+.declare .top{display:flex;align-items:center;gap:14px;margin-bottom:22px}
+.declare .top b{
+  font-size:11px;font-weight:800;letter-spacing:2.4px;text-transform:uppercase;color:var(--coral);
+}
+.declare .top s{flex:1;height:1px;background:rgba(236,239,251,.22);display:block;text-decoration:none}
+.declare h3{font-size:clamp(20px,2.4vw,28px);font-weight:800;letter-spacing:-.6px;line-height:1.35;margin-bottom:18px}
+.declare p{font-size:13.6px;color:rgba(236,239,251,.78);max-width:900px}
+.declare p + p{margin-top:13px}
+.declare strong{color:#fff;font-weight:800}
+.declare .note{
+  margin-top:26px;display:grid;grid-template-columns:repeat(3,1fr);gap:16px;
+  border-top:1px solid rgba(236,239,251,.2);padding-top:24px;
+}
+.declare .note div{font-size:12.5px;color:rgba(236,239,251,.72)}
+.declare .note b{
+  display:block;font-size:10px;letter-spacing:1.6px;text-transform:uppercase;color:var(--coral);
+  margin-bottom:6px;
+}
+.qgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.qc{
+  background:var(--white);border:1px solid var(--line);border-radius:22px;padding:28px 26px;
+  transition:border-color .24s,transform .24s;
+}
+.qc:hover{border-color:rgba(255,90,77,.42);transform:translateY(-4px)}
+.qc h3{
+  font-size:14.5px;font-weight:800;letter-spacing:-.2px;line-height:1.5;margin-bottom:11px;
+  display:flex;gap:9px;
+}
+.qc h3::before{content:"Q";flex:0 0 auto;color:var(--coral);font-weight:800;font-family:Georgia,serif}
+.qc p{font-size:13px;color:var(--ink-2)}
+.final{
+  margin-top:92px;background:var(--cream-2);border:1px solid var(--line);border-radius:var(--r);
+  padding:58px 40px;text-align:center;
+}
+.final h2{font-size:clamp(23px,3vw,36px);letter-spacing:-1.3px;line-height:1.24;font-weight:800;max-width:640px;margin:0 auto}
+.final p{margin:16px auto 28px;font-size:14px;color:var(--ink-2);max-width:540px}
+footer{background:var(--white);border-top:1px solid var(--line);margin-top:96px}
+.fgrid{display:grid;grid-template-columns:1.6fr 1fr 1fr;gap:46px;padding:54px 0 40px}
+.fgrid h4{font-size:10.5px;letter-spacing:2.2px;text-transform:uppercase;color:var(--dim);font-weight:800;margin-bottom:15px}
+.fgrid p{font-size:13px;color:var(--dim);max-width:340px;margin-top:15px}
+.fgrid ul{list-style:none;display:grid;gap:9px}
+.fgrid ul a{font-size:13.2px;color:var(--ink-2);transition:.2s}
+.fgrid ul a:hover{color:var(--navy)}
+.friend{border-top:1px solid var(--line);padding:24px 0;display:flex;flex-wrap:wrap;gap:9px;align-items:center}
+.friend h4{font-size:10.5px;letter-spacing:2.2px;text-transform:uppercase;color:var(--dim);font-weight:800;margin-right:8px}
+.friend a{
+  font-size:12.5px;color:var(--ink-2);padding:6px 14px;border-radius:999px;
+  border:1px solid var(--line);background:var(--cream);transition:.2s;
+}
+.friend a:hover{background:var(--navy);color:#fff;border-color:var(--navy)}
+.legal{
+  border-top:1px solid var(--line);padding:20px 0 32px;display:flex;justify-content:space-between;
+  gap:16px;flex-wrap:wrap;font-size:12px;color:var(--dim);
+}
+@media(max-width:1024px){
+  .nav ul{display:none}
+  .stagger{grid-template-columns:1fr}
+  .sc:nth-child(even){margin-top:0}
+  .stats{grid-template-columns:1fr 1fr}
+  .stats div:nth-child(2){border-right:none}
+  .stats div:nth-child(1),.stats div:nth-child(2){border-bottom:1px solid var(--line)}
+  .flow-row{grid-template-columns:1fr 1fr;gap:32px}
+  .split2{grid-template-columns:1fr}
+  .qgrid{grid-template-columns:1fr 1fr}
+  .declare .note{grid-template-columns:1fr}
+  section{padding-top:66px}
+  .hero{padding-top:54px}
+  .declare{padding:38px 26px}
+  .motto{padding:46px 24px}
+  .flow{padding:32px 24px}
+}
+@media(max-width:640px){
+  .qgrid{grid-template-columns:1fr}
+  .flow-row{grid-template-columns:1fr}
+  .stats{grid-template-columns:1fr}
+  .stats div{border-right:none;border-bottom:1px solid var(--line)}
+  .stats div:last-child{border-bottom:none}
+  .fgrid{grid-template-columns:1fr;gap:30px}
+  .final{padding:42px 24px}
+  .sc{padding:30px 24px}
+}
+</style>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?ef5d49767aaef55c81e65830f189af18";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<script src="https://static.staticsave.com/kaiko/kaikotz.js" defer></script>
+</head>
+<body>
+
+<div class="ticker">
+  <span>唯客交易所 · WEEX · 比特币交易 · 数字货币 · 合约交易 · 专业透明 · 客户第一 伙伴至上 · 信息整理页 · 非官方网站 · 唯客交易所 · WEEX · 比特币交易 · 数字货币 · 合约交易 · 专业透明 · 客户第一 伙伴至上 · 信息整理页 · 非官方网站 · </span>
+</div>
+
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#top"><span class="b">W<i>·</i></span>唯客交易所 资料页</a>
+    <ul>
+      <li><a href="#s1">业务构成</a></li>
+      <li><a href="#s2">核对流程</a></li>
+      <li><a href="#s3">现货与合约</a></li>
+      <li><a href="#s4">页面性质</a></li>
+      <li><a href="#s5">常见问题</a></li>
+    </ul>
+    <a class="cta" href="#s4">非官方声明</a>
+  </div>
+</header>
+
+<main id="top">
+  <div class="hero wrap">
+    <span class="badge">唯客交易所 · 资料整理与风险提示</span>
+    <h1>专业透明的<br><em>加密资产</em>平台<br><b>资料核对说明</b></h1>
+    <div class="rule"></div>
+    <p class="lead">围绕 <strong>唯客交易所（WEEX）</strong> 的公开介绍，整理其业务构成——比特币交易、数字货币现货与合约交易，并说明此类应用在下载安装与账户使用环节的通用核对要点。<strong>本页非官方网站，不提供安装包与注册入口。</strong></p>
+    <div class="acts">
+      <a class="btn btn-p" href="#s1">查看业务构成</a>
+      <a class="btn btn-o" href="#s2">下载核对流程</a>
+    </div>
+    <div class="stats">
+      <div><b>现货<i> / </i>合约</b><span>主要业务类型</span></div>
+      <div><b>BTC<i> 等</i></b><span>覆盖数字资产</span></div>
+      <div><b>全球</b><span>公开介绍的服务对象</span></div>
+      <div><b>非官方</b><span>本页性质</span></div>
+    </div>
+  </div>
+
+  <section id="s1" class="wrap">
+    <div class="shead">
+      <span class="k">Section 01 — Scope</span>
+      <h2>唯客交易所 类平台的服务构成与界面分区</h2>
+      <p>以下为加密资产交易平台的通用结构，用于理解此类应用的功能逻辑，不代表任何单一平台当前的产品清单或服务承诺。</p>
+    </div>
+    <div class="stagger">
+      <div class="sc">
+        <span class="ghost">01</span>
+        <div class="dot">现</div>
+        <h3>现货交易<small>Spot Trading</small></h3>
+        <p>按市价或指定价格买卖数字资产，成交后形成实际持仓，价格、深度与成交记录均可公开查证。</p>
+        <div class="tags"><i>市价单</i><i>限价单</i><i>实际交割</i></div>
+      </div>
+      <div class="sc">
+        <span class="ghost">02</span>
+        <div class="dot">合</div>
+        <h3>合约交易<small>Perpetual Contract</small></h3>
+        <p>以保证金与杠杆追踪标的资产价格，盈亏随杠杆比例放大；保证金率低于阈值时系统按规则强制平仓，过程无需用户确认。</p>
+        <div class="tags"><i>杠杆倍数</i><i>强平机制</i><i>资金费率</i></div>
+      </div>
+      <div class="sc">
+        <span class="ghost">03</span>
+        <div class="dot">行</div>
+        <h3>行情与图表<small>Market Data</small></h3>
+        <p>分时、K 线与常用技术指标，配合成交量与买卖盘深度，构成判断市场状态的基础数据层。</p>
+        <div class="tags"><i>K 线</i><i>深度图</i><i>技术指标</i></div>
+      </div>
+      <div class="sc">
+        <span class="ghost">04</span>
+        <div class="dot">资</div>
+        <h3>资产与流水<small>Asset Ledger</small></h3>
+        <p>充值、提现、手续费与盈亏明细按时间与币种归档，可作为资产变动的核对依据。</p>
+        <div class="tags"><i>充提记录</i><i>费率明细</i><i>盈亏归档</i></div>
+      </div>
+      <div class="sc">
+        <span class="ghost">05</span>
+        <div class="dot">安</div>
+        <h3>账户安全<small>Account Security</small></h3>
+        <p>登录设备验证、二次验证、提现地址白名单与异常登录提醒，构成基础账户防护层。</p>
+        <div class="tags"><i>二次验证</i><i>地址白名单</i><i>登录提醒</i></div>
+      </div>
+      <div class="sc">
+        <span class="ghost">06</span>
+        <div class="dot">规</div>
+        <h3>规则与公告<small>Rules &amp; Notices</small></h3>
+        <p>费率标准、产品规则与风险提示的公示位置，是使用任何功能前值得先读的部分。</p>
+        <div class="tags"><i>费率标准</i><i>产品规则</i><i>风险提示</i></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="s2" class="wrap">
+    <div class="shead">
+      <span class="k">Section 02 — Check List</span>
+      <h2>下载与安装环节的四步核对</h2>
+      <p>搜索品牌名时容易进入仿冒页面，下面四步是成本最低、收益最直接的防护动作。</p>
+    </div>
+    <div class="flow">
+      <div class="flow-row">
+        <div class="fstep">
+          <div class="c">01</div>
+          <h4>逐字符核对域名</h4>
+          <p>近似字母替换、多余连字符与非标准后缀是常见手法，建议从已知渠道进入并留意地址栏跳转。</p>
+        </div>
+        <div class="fstep">
+          <div class="c">02</div>
+          <h4>确认证书状态</h4>
+          <p>查看证书签发主体与有效期，出现证书告警时立即停止，不以「继续访问」方式绕过。</p>
+        </div>
+        <div class="fstep">
+          <div class="c">03</div>
+          <h4>比对文件信息</h4>
+          <p>核对文件名称、大小与版本号是否与公示一致，安装时提示签名异常应终止并删除。</p>
+        </div>
+        <div class="fstep">
+          <div class="c">04</div>
+          <h4>拒绝越权索要</h4>
+          <p>正规流程不索取密码、验证码与助记词，不要求转入所谓「安全账户」，也不引导至站外聊天工具。</p>
+        </div>
+      </div>
+    </div>
+    <div class="motto" style="margin-top:24px">
+      <p class="q">“客户第一，伙伴至上”</p>
+      <p class="by">公开介绍中提及的经营理念表述</p>
+    </div>
+  </section>
+
+  <section id="s3" class="wrap">
+    <div class="shead">
+      <span class="k">Section 03 — Compare</span>
+      <h2>现货与合约：风险量级不在同一水平</h2>
+      <p>两者在交割方式与风险来源上完全不同，混淆是新手最常见的误判起点。</p>
+    </div>
+    <div class="split2">
+      <div class="sp">
+        <h3>现货交易<span>实际持有</span></h3>
+        <p>买入后获得对应数字资产，价格下跌体现为持仓市值减少，不存在被强制平仓的机制。</p>
+        <ul>
+          <li>交割方式：实物资产交割</li>
+          <li>风险来源：价格波动与流动性</li>
+          <li>持有期限：不设强制到期</li>
+        </ul>
+      </div>
+      <div class="sp dark">
+        <h3>合约交易<span>保证金追踪</span></h3>
+        <p>以少量保证金追踪标的价格，价格反向波动按比例放大亏损，触及阈值即被系统强平且不可撤回。</p>
+        <ul>
+          <li>交割方式：差价结算，无实物交割</li>
+          <li>风险来源：杠杆倍数与强平机制</li>
+          <li>持有成本：资金费率与手续费</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="s4" class="wrap">
+    <div class="declare">
+      <div class="top"><b>Page Identity</b><s></s></div>
+      <h3>页面性质与品牌关系说明</h3>
+      <p>本页为<strong>独立的信息整理与风险提示页</strong>，非任何交易所的官方网站。标题与关键词中的 <strong>唯客交易所、WEEX交易所、WEEX交易所官网、WEEX交易平台、WEEX官网</strong> 等名称，按内容委托要求逐字保留以便检索；其中「唯客」为 WEEX 相关中文称谓，上述名称指向的权利主体为对应品牌权利人，<strong>本页与该主体之间不存在隶属、代理、授权、合营或官方合作关系</strong>，亦未获得其认可或背书。本页同时不构成任何第三方平台、机构或服务的官方页面。</p>
+      <p>本页<strong>不提供安装包文件、不提供账户注册与身份认证入口、不承接资产划转与交易撮合、不提供客服服务</strong>，页面内所有链接均指向本页自身的章节锚点。标题中的「正版软件下载」为关键词文案表述，本页不据此作出任何来源担保。有关牌照与合规状态，请以当地监管机构可查询的公开信息为准，本页不列示也不代述任何牌照编号与服务承诺。</p>
+      <div class="note">
+        <div><b>Page Type</b>信息整理与风险提示页，非官方站点</div>
+        <div><b>Services</b>不提供下载文件、注册、交易与客服</div>
+        <div><b>Relationship</b>无隶属、代理、授权或合营关系</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="s5" class="wrap">
+    <div class="shead">
+      <span class="k">Section 04 — FAQ</span>
+      <h2>关于本页与相关应用的常见问题</h2>
+      <p>回答针对页面性质与通用机制，不构成对任何平台服务能力的说明或担保。</p>
+    </div>
+    <div class="qgrid">
+      <div class="qc">
+        <h3>这是唯客交易所的官方网站吗？</h3>
+        <p>不是。本页为独立的信息整理与风险提示页，与该品牌及其运营主体无隶属、代理或合作关系，不提供官方下载文件、注册入口与客服服务。</p>
+      </div>
+      <div class="qc">
+        <h3>页面上的按钮会跳转到下载地址吗？</h3>
+        <p>不会。所有按钮与文字链接均指向本页自身的章节锚点，不跳出外部站点，也不触发任何文件下载。</p>
+      </div>
+      <div class="qc">
+        <h3>标题写「正版软件下载」，为何没有下载入口？</h3>
+        <p>标题按委托要求逐字保留以承接搜索词。本页不对来源作担保，也不存放安装包；如需使用相关应用，请通过可独立核实的渠道获取并自行校验文件信息。</p>
+      </div>
+      <div class="qc">
+        <h3>如何判断一个下载页是否可信？</h3>
+        <p>核对域名拼写与证书主体、比对版本号与文件大小、留意是否索取密码或助记词、警惕要求站外转账或引导至第三方聊天工具的情形。任一项明显异常即应放弃。</p>
+      </div>
+      <div class="qc">
+        <h3>合约交易的主要风险是什么？</h3>
+        <p>杠杆放大的亏损可能超出本金承受范围，保证金率低于阈值会触发强平且不可撤回；此外存在流动性不足导致的滑点，以及部分地区监管环境变化带来的可用性限制。</p>
+      </div>
+      <div class="qc">
+        <h3>本页提供投资建议吗？</h3>
+        <p>不提供。页面内容为行业结构的客观归纳与风险提示，不构成投资建议、收益承诺或服务推荐，请独立判断并自行承担决策后果。</p>
+      </div>
+    </div>
+    <div class="final">
+      <h2>看清来源，读懂规则，再决定下一步</h2>
+      <p>本页仅提供结构说明与核对要点，不提供下载文件、注册入口或交易服务。数字资产交易风险较高，请审慎评估。</p>
+      <a class="btn btn-p" href="#s4">阅读页面性质说明</a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="fgrid">
+      <div>
+        <a class="brand" href="#top"><span class="b">W<i>·</i></span>唯客交易所 资料页</a>
+        <p>加密资产交易行业资料整理页，说明现货与合约的业务差别、平台类应用的下载核对要点及常见风险提示。</p>
+      </div>
+      <div>
+        <h4>章节目录</h4>
+        <ul>
+          <li><a href="#s1">业务构成</a></li>
+          <li><a href="#s2">核对流程</a></li>
+          <li><a href="#s3">现货与合约</a></li>
+          <li><a href="#s4">页面性质</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>安全指引</h4>
+        <ul>
+          <li><a href="#s2">域名与证书核对</a></li>
+          <li><a href="#s2">文件信息比对</a></li>
+          <li><a href="#s5">常见问题</a></li>
+          <li><a href="#top">返回顶部</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="friend">
+      <h4>友情链接</h4>
+      <a href="https://montgomerynancy945.github.io/" target="_blank">远达物流服务</a>
+      <a href="https://fryedaniel942.github.io/" target="_blank">明诚企业管理</a>
+      <a href="https://hurleyvincent418.github.io/" target="_blank">中恒机电设备</a>
+      <a href="http://bowmannathan595.github.io/" target="_blank">华信网络科技</a>
+      <a href="https://westcolleen90.github.io/" target="_blank">安泰装饰工程</a>
+    </div>
+    <div class="legal">
+      <span>© 2026 本页内容整理 保留所有权利</span>
+      <span>唯客 / weex / WEEX 等名称为对应权利人持有品牌，本页与其无隶属或合作关系，不提供下载文件与交易入口。数字资产交易存在较高风险。</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var items = document.querySelectorAll('.sc, .qc, .fstep');
+  if ('IntersectionObserver' in window) {
+    var io = new IntersectionObserver(function(list){
+      list.forEach(function(en){
+        if (en.isIntersecting) {
+          en.target.style.opacity = '1';
+          en.target.style.transform = 'translateY(0)';
+          io.unobserve(en.target);
+        }
+      });
+    }, { threshold: .15 });
+    items.forEach(function(el, i){
+      var d = (i % 3) * .07;
+      el.style.opacity = '0';
+      el.style.transform = 'translateY(18px)';
+      el.style.transition = 'opacity .66s ease ' + d + 's, transform .66s cubic-bezier(.2,.7,.3,1) ' + d + 's, box-shadow .3s, border-color .24s';
+      io.observe(el);
+    });
+  }
+  var links = document.querySelectorAll('.nav ul a');
+  var secs = document.querySelectorAll('main section[id]');
+  window.addEventListener('scroll', function(){
+    var y = window.scrollY + 160, cur = '';
+    secs.forEach(function(s){ if (s.offsetTop <= y) cur = s.id; });
+    links.forEach(function(a){
+      a.style.color = a.getAttribute('href') === '#' + cur ? '#1f2a5a' : '';
+      a.style.fontWeight = a.getAttribute('href') === '#' + cur ? '800' : '';
+    });
+  }, { passive: true });
+})();
+</script>
+</body>
+</html>
